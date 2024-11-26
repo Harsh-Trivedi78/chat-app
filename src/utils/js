@@ -1,0 +1,10 @@
+// src/utils.js
+export const handleError = (message) => {
+  // Your error handling logic here
+  console.error(message);
+};
+
+export const handleSuccess = (message) => {
+  // Your success handling logic here
+  console.log(message);
+};
